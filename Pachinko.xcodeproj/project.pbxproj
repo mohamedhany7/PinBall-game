@@ -9,24 +9,24 @@
 /* Begin PBXBuildFile section */
 		20CBB21428248A1D0013F4FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CBB21328248A1D0013F4FB /* AppDelegate.swift */; };
 		20CBB21628248A1D0013F4FB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 20CBB21528248A1D0013F4FB /* GameScene.sks */; };
-		20CBB21828248A1D0013F4FB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 20CBB21728248A1D0013F4FB /* Actions.sks */; };
 		20CBB21A28248A1D0013F4FB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CBB21928248A1D0013F4FB /* GameScene.swift */; };
 		20CBB21C28248A1D0013F4FB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CBB21B28248A1D0013F4FB /* GameViewController.swift */; };
 		20CBB21F28248A1D0013F4FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CBB21D28248A1D0013F4FB /* Main.storyboard */; };
 		20CBB22128248A1D0013F4FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CBB22028248A1D0013F4FB /* Assets.xcassets */; };
 		20CBB22428248A1D0013F4FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CBB22228248A1D0013F4FB /* LaunchScreen.storyboard */; };
+		20E3E0AF2839A8EC00D73E6F /* FireParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 20E3E0AE2839A8EC00D73E6F /* FireParticles.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20CBB21028248A1D0013F4FB /* Pachinko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pachinko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CBB21328248A1D0013F4FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20CBB21528248A1D0013F4FB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		20CBB21728248A1D0013F4FB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		20CBB21928248A1D0013F4FB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		20CBB21B28248A1D0013F4FB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		20CBB21E28248A1D0013F4FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20CBB22028248A1D0013F4FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20CBB22328248A1D0013F4FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20E3E0AE2839A8EC00D73E6F /* FireParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticles.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +61,11 @@
 			children = (
 				20CBB21328248A1D0013F4FB /* AppDelegate.swift */,
 				20CBB21528248A1D0013F4FB /* GameScene.sks */,
-				20CBB21728248A1D0013F4FB /* Actions.sks */,
 				20CBB21928248A1D0013F4FB /* GameScene.swift */,
 				20CBB21B28248A1D0013F4FB /* GameViewController.swift */,
 				20CBB21D28248A1D0013F4FB /* Main.storyboard */,
 				20CBB22028248A1D0013F4FB /* Assets.xcassets */,
+				20E3E0AE2839A8EC00D73E6F /* FireParticles.sks */,
 				20CBB22228248A1D0013F4FB /* LaunchScreen.storyboard */,
 			);
 			path = Pachinko;
@@ -131,9 +131,9 @@
 			files = (
 				20CBB21F28248A1D0013F4FB /* Main.storyboard in Resources */,
 				20CBB21628248A1D0013F4FB /* GameScene.sks in Resources */,
+				20E3E0AF2839A8EC00D73E6F /* FireParticles.sks in Resources */,
 				20CBB22128248A1D0013F4FB /* Assets.xcassets in Resources */,
 				20CBB22428248A1D0013F4FB /* LaunchScreen.storyboard in Resources */,
-				20CBB21828248A1D0013F4FB /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +299,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +310,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -327,7 +327,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
